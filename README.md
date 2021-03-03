@@ -1,12 +1,12 @@
-![PALMDB](http://drive5.com/images/palmdb_header.png)
+![PALMdb](http://drive5.com/images/palmdb_header.png)
 
 ## Introduction
 
-**PALM**DB is a database of viral polymerase palmprint (barcode) sequences classified by (1) taxonomy and (2) operational taxonomic units (OTUs) obtained by sequence clustering.
+**PALM**db is a database of viral polymerase palmprint (barcode) sequences classified by (1) taxonomy and (2) operational taxonomic units (OTUs) obtained by sequence clustering.
 
 ### Palmprint sequence
 
-![PALMDB](http://drive5.com/images/palm_structure_figure.png)
+![PALMdb](http://drive5.com/images/palm_structure_figure.png)
 
 The palmprint is a ~100aa segment of the viral polymerase gene delineated by the conserved catalytic motifs "A" and "C" in the palm sub-domain.
 
