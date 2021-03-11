@@ -25,3 +25,8 @@ YYYY-MM-DD/
 	+--- u_otu.tsv             # 1. u<nnn> 2. u<nnn> of OTU centroid
 	+--- uniques.fa            # unique sequences from sources.fa, relabeled as u<nnn>
 ```
+
+### Reference
+
+A. Babaian and R. C. Edgar (2021), Ribovirus classification by a polymerase barcode sequence (2021), biorxiv
+[https://doi.org/10.1101/2021.03.02.433648](https://doi.org/10.1101/2021.03.02.433648)
