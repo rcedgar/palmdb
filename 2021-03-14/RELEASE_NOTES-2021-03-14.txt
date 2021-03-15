@@ -1,0 +1,33 @@
+Notes for release 2021-03-14
+============================
+
+This release adds new palmprints from the Serratus project:
+
+https://www.biorxiv.org/content/10.1101/2020.08.07.241729v2
+
+Canonical ranks
+---------------
+These are ranks phylum, class, order, family, genus and species.
+
+named.fa
+--------
+New FASTA file with taxonomy at canonical ranks according to
+the NCBI Taxonomy Identifier provided by the source databases.
+
+serratus.fa
+-----------
+Unlike other sources such as GenBank and Uniprot, Serratus does
+not provide NCBI Taxonomy Identifiers. These palmprints are
+therefore handled as a special case.
+
+The serratus.fa file contains Serratus palmprint sequences
+which were not present in the previous PALMdb release (2021-03-02).
+These palmprints are annotated with predicted taxonomy at
+canonical ranks. Prediction was made by aligning serratus.fa
+to named.fa and taking a consensus of the top 10 hits by reporting
+the majority name, or "." if there was no majority. Only hits
+above an identity threshold for each rank are considered: 90% for
+species, 75% for genus and 40% for higher ranks.
+
+-end-
+
