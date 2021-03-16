@@ -2,7 +2,7 @@
 
 ### Introduction
 
-**PALM**db is a database of viral polymerase palmprint (barcode) sequences classified by (1) taxonomy and (2) operational taxonomic units (OTUs) obtained by sequence clustering. **PALM**db was created using the [palmscan](https://github.com/rcedgar/palmscan) algorithm to mine public sequence databases.
+**PALM**db is a database of viral polymerase palmprint (barcode) sequences classified (1) by taxonomy and (2) by clustering sequences into species-like operational taxonomic units (OTUs) at 90% identity. **PALM**db was created using the [palmscan](https://github.com/rcedgar/palmscan) algorithm to mine public sequence databases.
 
 ### 2021-03-14 update with 250,000+ new sequences, 130,000+ new species
 
