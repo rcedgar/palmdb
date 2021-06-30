@@ -28,6 +28,7 @@ YYYY-MM-DD/
 	+--- taxon.tsv             # 1. NCBI TaxID 2. name 3. clade names superkingdom...species
 	+--- u_otu.tsv             # 1. u<nnn> 2. u<nnn> of OTU centroid
 	+--- uniques.fa            # unique sequences from sources.fa, relabeled as u<nnn>
+	+--- u_tax.tsv             # tab-separated file with approximate taxonomy assignments for uniques.    
 ```
 
 ### References
